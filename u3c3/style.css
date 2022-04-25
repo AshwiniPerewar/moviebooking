@@ -1,0 +1,42 @@
+#add-money,#search_bar,#user-detail{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  button{
+    width: 200px;
+    margin: auto;
+  }
+  #navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #movies{
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 10px;
+  }
+
+  #movies>div{
+      height: 500px;
+      border: 1px solid black;
+  }
+  img{
+      height: 400px;
+      width: 100%;
+  }
+  button{
+      width: inherit;
+  }
+
+  #movie{
+      margin: auto;
+      margin-top: 30px;
+      width: 300px;
+      height: 400px;
+  }
